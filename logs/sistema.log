@@ -1,0 +1,36 @@
+2026-11-21 14:31:15 - INFO - === INICIO DE SIMULACIONES DE SOFTWARE FJ ===
+2026-11-21 14:31:15 - INFO - Cliente creado: Carlos Mendoza (Doc: 1023456789)
+2026-11-21 14:31:15 - ERROR - [2. Registro cliente con correo invalido] DatoInvalidoError: Error en 'correo' con valor 'lauragomez.com': El formato del correo electronico no es valido
+2026-11-21 14:31:15 - ERROR - [3. Registro cliente con telefono invalido] DatoInvalidoError: Error en 'telefono' con valor '123abc': El telefono debe tener entre 7 y 15 digitos numericos
+2026-11-21 14:31:15 - INFO - Servicio de sala creado: Sala de Juntas Norte (Capacidad: 10)
+2026-11-21 14:31:15 - INFO - Servicio de equipo creado: Portatil Dell Precision (Serial: DELL-9988)
+2026-11-21 14:31:15 - INFO - Servicio de asesoria creado: Consultoria Arquitectura Cloud (AWS y Python)
+2026-11-21 14:31:15 - ERROR - [7. Creacion servicio con tarifa negativa] DatoInvalidoError: Error en 'tarifa_hora' con valor '-15000': La tarifa debe ser mayor a cero
+2026-11-21 14:31:15 - INFO - Reserva RES-001 creada (Pendiente) | Cliente: Carlos Mendoza | Servicio: Sala de Juntas Norte | Total: $210630.0
+2026-11-21 14:31:15 - INFO - Reserva RES-001 cambiada a estado: Confirmada
+2026-11-21 14:31:15 - INFO - Reserva RES-001 PROCESADA con exito | Total cobrado: $210630.0
+2026-11-21 14:31:15 - ERROR - [9. Reserva superando aforo maximo de sala] DatoInvalidoError: Error en 'asistentes' con valor '18': La sala permite entre 1 y 10 personas
+2026-11-21 14:31:15 - INFO - Servicio de equipo creado: Proyector Epson (Serial: EP-001)
+2026-11-21 14:31:15 - ERROR - [10. Reserva de equipo no disponible] ServicioNoDisponibleError: El servicio 'Proyector Epson' no esta disponible: El servicio se encuentra inactivo o ocupado
+2026-11-21 14:31:15 - ERROR - [11. Cancelar una reserva ya procesada] ReservaInvalidaError: No se puede cancelar la reserva RES-001 porque esta en estado 'Procesada'
+2026-11-21 14:31:15 - INFO - Reserva RES-004 creada (Pendiente) | Cliente: Carlos Mendoza | Servicio: Consultoria Arquitectura Cloud | Total: $271320.0
+2026-11-21 14:31:15 - INFO - Reserva RES-004 cambiada a estado: Confirmada
+2026-11-21 14:31:15 - INFO - === FIN DE SIMULACIONES | Exitosas: 6 | Errores controlados en log: 6 ===
+2026-11-21 14:37:51 - INFO - === INICIO DE SIMULACIONES DE SOFTWARE FJ ===
+2026-11-21 14:37:51 - INFO - Cliente creado: Carlos Mendoza (Doc: 1023456789)
+2026-11-21 14:37:51 - ERROR - [2. Registro cliente con correo invalido] DatoInvalidoError: Error en 'correo' con valor 'lauragomez.com': El formato del correo electronico no es valido
+2026-11-21 14:37:51 - ERROR - [3. Registro cliente con telefono invalido] DatoInvalidoError: Error en 'telefono' con valor '123abc': El telefono debe tener entre 7 y 15 digitos numericos
+2026-11-21 14:37:51 - INFO - Servicio de sala creado: Sala de Juntas Norte (Capacidad: 10)
+2026-11-21 14:37:51 - INFO - Servicio de equipo creado: Portatil Dell Precision (Serial: DELL-9988)
+2026-11-21 14:37:51 - INFO - Servicio de asesoria creado: Consultoria Arquitectura Cloud (AWS y Python)
+2026-11-21 14:37:51 - ERROR - [7. Creacion servicio con tarifa negativa] DatoInvalidoError: Error en 'tarifa_hora' con valor '-15000': La tarifa debe ser mayor a cero
+2026-11-21 14:37:51 - INFO - Reserva RES-001 creada (Pendiente) | Cliente: Carlos Mendoza | Servicio: Sala de Juntas Norte | Total: $210630.0
+2026-11-21 14:37:51 - INFO - Reserva RES-001 cambiada a estado: Confirmada
+2026-11-21 14:37:51 - INFO - Reserva RES-001 PROCESADA con exito | Total cobrado: $210630.0
+2026-11-21 14:37:51 - ERROR - [9. Reserva superando aforo maximo de sala] DatoInvalidoError: Error en 'asistentes' con valor '18': La sala permite entre 1 y 10 personas
+2026-11-21 14:37:51 - INFO - Servicio de equipo creado: Proyector Epson (Serial: EP-001)
+2026-11-21 14:37:51 - ERROR - [10. Reserva de equipo no disponible] ServicioNoDisponibleError: El servicio 'Proyector Epson' no esta disponible: El servicio se encuentra inactivo o ocupado
+2026-11-21 14:37:51 - ERROR - [11. Cancelar una reserva ya procesada] ReservaInvalidaError: No se puede cancelar la reserva RES-001 porque esta en estado 'Procesada'
+2026-11-21 14:37:51 - INFO - Reserva RES-004 creada (Pendiente) | Cliente: Carlos Mendoza | Servicio: Consultoria Arquitectura Cloud | Total: $271320.0
+2026-11-21 14:37:51 - INFO - Reserva RES-004 cambiada a estado: Confirmada
+2026-11-21 14:37:51 - INFO - === FIN DE SIMULACIONES | Exitosas: 6 | Errores controlados en log: 6 ===

@@ -156,3 +156,6 @@ class Asesoria(Servicio):
     def describir(self):
         estado = "Disponible" if self.disponible else "No disponible"
         return f"Asesoria [{self.identificador}] {self.nombre} ({self.especialidad}) | ${self.tarifa_hora}/h | {estado}"
+
+
+        
